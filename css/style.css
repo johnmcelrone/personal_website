@@ -1,0 +1,98 @@
+/* variables */
+:root {
+    /* main palette */
+    --light: #f1f2f2;
+    --dark: #2e3337;
+    --spot: #ff7d7d;
+}
+
+/* Noe Display Black */
+@font-face {
+    font-family: 'Noe Display';
+    src: url(../fonts/Noe\ Display\ Black.woff);
+}
+
+html {
+    background: var(--light);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.ul-nav-left,
+.ul-nav-right {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ul-nav-left {
+    margin: 55px 0px 55px 55px;
+}
+
+.ul-nav-right {
+    margin: 55px 55px 55px 0px;
+}
+
+.li-nav {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jcon-logo {
+    width: 52px;
+}
+
+.section-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+    background: var(--light);
+    position: relative;
+}
+
+.intro-parent {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 424px;
+}
+
+.intro-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jcon {
+    font-size: 80px;
+    color: var(--spot);
+}
+
+.jcon-art,
+.jcon-tags {
+    font-size: 88px;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Noe Display', serif;
+    font-size: 72px;
+    color: var(--dark);
+}
