@@ -25,29 +25,32 @@
 }
 
 .jcon-arrowdown:before {
-  content: "\72";
+  content: "\e900";
 }
 .jcon-art:before {
-  content: "\61";
+  content: "\e901";
 }
 .jcon-brackets:before {
-  content: "\62";
+  content: "\e902";
 }
 .jcon-chat:before {
-  content: "\63";
+  content: "\e903";
 }
 .jcon-down:before {
-  content: "\64";
+  content: "\e904";
 }
 .jcon-me:before {
-  content: "\6d";
+  content: "\e905";
 }
 .jcon-menuclose:before {
-  content: "\6c";
+  content: "\e906";
 }
 .jcon-menuopen:before {
-  content: "\6f";
+  content: "\e907";
 }
 .jcon-tags:before {
-  content: "\74";
+  content: "\e908";
+}
+.jcon-logo:before {
+  content: "\e909";
 }
