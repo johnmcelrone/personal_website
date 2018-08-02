@@ -12,23 +12,46 @@
     <title>John McElrone</title>
 </head>
 <body>
-
     <!-- menu -->
     <section class="section-menu ">
         <!-- menu navigation -->
         <nav class="nav-menu">
             <ul class="ul-nav-menu">
-                <li class="li-nav-menu"><span class="menu-int">01</span>ABOUT</li>
-                <li class="li-nav-menu"><span class="menu-int">02</span>PROJECTS</li>
-                <li class="li-nav-menu"><span class="menu-int">03</span>RESUME</li>
-                <li class="li-nav-menu"><span class="menu-int">04</span>CONTACT</li>
+                <!-- about <li> -->
+                <li class="li-nav-menu">
+                    <a href="#" class="a-menu">
+                        <span class="menu-int">01</span>
+                        ABOUT
+                    </a>
+                </li>
+                <!-- projects <li> -->
+                <li class="li-nav-menu">
+                    <a href="#" class="a-menu">
+                        <span class="menu-int">02</span>
+                        PROJECTS
+                    </a>
+                </li>
+                <!-- github <li> -->
+                <li class="li-nav-menu">
+                    <a href="https://github.com/johnmcelrone" class="a-menu">
+                        <span class="menu-int">03</span>
+                        GITHUB
+                    </a>
+                </li>
+                <!-- contact <li> -->
+                <li class="li-nav-menu">
+                    <a href="#" class="a-menu">
+                        <span class="menu-int">04</span>
+                        CONTACT
+                    </a>
+                </li>
+
             </ul>
         </nav>
     </section>
     
     <!-- about me -->
     <section class="section-intro">
-
         <!-- main navigation left -->
         <nav class="nav nav-left">
             <ul class="ul-nav-left">
@@ -36,7 +59,6 @@
                 <li class="li-nav jcon-chat"></li>
             </ul>
         </nav>
-
         <!-- main navigation right -->
         <nav class="nav nav-right">
             <ul class="ul-nav-right">
@@ -44,7 +66,7 @@
                 <li class="li-nav jcon-arrowdown"></li>
             </ul>
         </nav>
-
+        <!-- intro heading -->
         <div class="intro-parent">
             <!-- line 01 -->
             <div class="intro-row intro-row-1">
@@ -121,7 +143,16 @@
             </div>
         </div>
     </section>
-
+    <!-- contact -->
+    <section class="section-contact">
+        <h3 class="h3-contact">Let's get in touch.</h3>
+        <form action="/action_page.php">
+            <input type="text" id="" name="firstname" placeholder="Name" class="input-field">
+            <input type="text" id="" name="lastname" placeholder="Email" class="input-field">
+            <textarea type="email" id="" name="email" placeholder="Message" class="input-field input-message"></textarea>
+            <input type="submit" value="Submit" class=" input input-submit">
+          </form>
+    </section>
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- app.js -->

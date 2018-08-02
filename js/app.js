@@ -38,7 +38,7 @@ $(document).ready(function(){
             sectionProj.css('display', 'none');
         } else {
             domBody.css('overflow-y', 'scroll');
-            navMenu.css('display', 'none');
+            navMenu.fadeOut(2000).css('display', 'none');
             navJcons.css('color', 'var(--dark)');
             sectionProj.css('display', 'flex');
         }
