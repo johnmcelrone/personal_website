@@ -24,7 +24,7 @@ body {
 
 ::-webkit-scrollbar {
     width: 0px;
-    background: transparent; /* make scrollbar transparent */
+    background: transparent;
 }
 
 .nav {
@@ -126,6 +126,10 @@ body {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--light);
+}
+
+.a-menu-scroll {
+    text-decoration: none;
 }
 
 .a-menu:visited {
@@ -298,6 +302,7 @@ h1 {
       align-items: center;
       width: 100vw;
       height: 100vh;
+      z-index: 1;
   }
 
   .h3-contact {
@@ -316,11 +321,32 @@ h1 {
       align-items: center;
       background: transparent;
       width: 100%;
+      margin-top: 60px;
+  }
+
+  .input-three {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 500px;
+  }
+
+  .input-two {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 534px;
+  }
+
+  .input-one {
+      display: inline-block;
+      width: 215px;
   }
 
   input,
-  .input {
-      margin: 15px;
+  .input,
+  textarea {
       padding: 15px;
       font-family: 'Helvetica', sans-serif;
       font-style: italic;
@@ -329,12 +355,12 @@ h1 {
       border: 2px solid var(--neue);
       background: transparent;
       color: var(--neue);
+      resize: none;
   }
 
-  .input-field {
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
+  textarea {
+      width: 500px;
+      margin-top: 30px;
   }
 
   .input-submit {
@@ -345,6 +371,8 @@ h1 {
       border: none;
       padding: 20px 0px;
       width: 300px;
+      margin-top: 60px;
+      cursor: pointer;
   }
 
   .input-message {

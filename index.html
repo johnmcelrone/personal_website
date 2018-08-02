@@ -45,18 +45,17 @@
                         CONTACT
                     </a>
                 </li>
-
             </ul>
         </nav>
     </section>
     
     <!-- about me -->
-    <section class="section-intro">
+    <section id="anchor2" class="section-intro">
         <!-- main navigation left -->
         <nav class="nav nav-left">
             <ul class="ul-nav-left">
-                <li class="li-nav jcon-logo"></li>
-                <li class="li-nav jcon-chat"></li>
+                <a href="#anchor2" class="a-menu-scroll scroll-link"><li class="li-nav jcon-logo"></li></a>
+                <a href="#anchor1" class="a-menu-scroll scroll-link"><li class="li-nav jcon-chat"></li></a>
             </ul>
         </nav>
         <!-- main navigation right -->
@@ -144,13 +143,17 @@
         </div>
     </section>
     <!-- contact -->
-    <section class="section-contact">
+    <section id="anchor1" class="section-contact">
         <h3 class="h3-contact">Let's get in touch.</h3>
         <form action="/action_page.php">
-            <input type="text" id="" name="firstname" placeholder="Name" class="input-field">
-            <input type="text" id="" name="lastname" placeholder="Email" class="input-field">
-            <textarea type="email" id="" name="email" placeholder="Message" class="input-field input-message"></textarea>
-            <input type="submit" value="Submit" class=" input input-submit">
+            <div class="input-three">
+                <div class="input-two">
+                    <input type="text" id="" name="firstname" placeholder="Name" class="input-one">
+                    <input type="text" id="" name="lastname" placeholder="Email" class="input-one">
+                </div>
+                <textarea type="email" id="" name="email" placeholder="Message" class="input-message"></textarea>
+                <input type="submit" value="Submit" class=" input input-submit">
+            </div>
           </form>
     </section>
     <!-- jQuery CDN -->
