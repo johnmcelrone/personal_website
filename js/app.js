@@ -56,6 +56,14 @@ $(document).ready(function(){
     });
 });
 
+// anchor scrolls for nav links
+$(document).ready(function(){
+    $( "a.scroll-link" ).click(function( event ) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+    });
+});
+
 /*
 // changes nav css @ section reaching browser top
 var distance = $('.section-proj').offset().top, $window = $(window);
@@ -65,11 +73,3 @@ $window.scroll(function() {
     }
 });
 */
-
-// anchor scrolls for nav links
-$(document).ready(function(){
-    $( "a.scroll-link" ).click(function( event ) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
-    });
-});
