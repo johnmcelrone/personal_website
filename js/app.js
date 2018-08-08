@@ -64,12 +64,11 @@ $(document).ready(function(){
     });
 });
 
-/*
-// changes nav css @ section reaching browser top
-var distance = $('.section-proj').offset().top, $window = $(window);
-$window.scroll(function() {
-    if ($window.scrollTop() >= distance) {
-        navJcons.css('color', 'var(--light)');
-    }
-});
-*/
+
+// // changes nav css @ section reaching browser top
+// var distance = $('.section-proj').offset().top, $window = $(window);
+// $window.scroll(function() {
+//     if ($window.scrollTop() >= distance) {
+//         navJcons.css('color', 'var(--light)');
+//     }
+// });
